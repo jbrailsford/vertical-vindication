@@ -1,3 +1,5 @@
+// Does not have any proper error handling, errors are thrown away or will crash the program.
+
 use crossbeam::channel::{unbounded, Receiver, Sender};
 use crossbeam::deque::{Injector, Worker};
 use crossbeam::sync::Parker;
